@@ -1,161 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-html {
-    font-size: 10px;
-    
-    
-}
 
-body {
-    font-family: "Roboto","Arial",sans-serif;
-    margin: 0px;
-}
-header{
-    display: flex;
-    margin-bottom: 50px;
-    background-color: rgb(219, 216, 216);
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    
-}
-.text{
-    font-size: 1.7rem;
-    font-weight: 400;
-    margin-left: 350px;
-    margin-top: 9px;
-    text-align: center;
-    color: rgb(228, 61, 1);
-    
-}
-.centr-section img{
-    padding-left: 60px;
-    margin-top: 18px;
-    margin-bottom: 20px;
-    
-    
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slayes.css">
+    <title>Youtube</title>
+</head>
+<body>
+    <header>
+        <div class="centr-section">
+            <img src="images/mi.jpg" alt="mi" height="70" width="70">
+            
+        </div>
+        <div class="text">
+            <h1> Mi Electric Scooter informations</h1>
+        </div>
+        
+    </header>
 
+    <div class="content-area">
+        <aside>
+            <nav>
+                <a href="#car" class="text-ferst">
+                    <span id="bottom1">asdf</span>
+                </a>
+                <hr>
+                <a href="#ri" class="text-ferst">
+                    <span id="bottom2" >scotr</span>
+                </a>
+                <hr>
+                <a href="#uh" class="text-ferst">
+                    <span id="bottom3">asdfjkalsdjf</span>
+                </a>
+                <hr>
+                <a href="#ou" class="text-ferst">
+                    <span id="bottom4">sdfjaksdj</span>
+                </a>
+            </nav>
+        </aside>
+        <main>
+            
+            <section class="text-1" id="car">
+                <h1>Mi Electric Scooter Pro</h1>
+                <p>
+                    High performance motor
+                    Up to 45km extended range battery life
+                    Built-in display for convenient monitoring
 
-.content-area{
-    height: calc(200vh - 40px);
-    display: flex;
-    background-color: rgb(245, 245, 244);
-}
-.text-ferst:hover{
-    background-color: rgba(0, 0, 0,0.05);
-    margin-left: 17px;
-    margin-right: 5px;
-}
-aside{
-    margin: 0%;
-    height: 100%;
-    width: 230px;
-    display: flex;
-    background-color: rgb(255, 237, 216);
-    box-shadow: 2px 8px 4px #c8c7c7;
-    position: fixed;
-    margin-top: 110px;
-    
-    
+                    <br>
+                    <br>
 
-}
-nav{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 16px 0;
-    padding-right: 16px;
+                    45km long-range battery
+                    Take the journey further
+                    With the highly safe 18650 power lithium battery, 474Wh capacity, large power supply and efficient acceleration, the
+                    scooter can take you up to 45km on a single charge. The smart power management system offers six different protective
+                    measures, and you can easily check the health of the battery via the mobile app.
+                </p>
+            </section>
 
-}
-.text-ferst{
-    align-items: center;
-    padding: 10px 16px;
-    text-decoration: none;
-}
+                <hr>
+                <hr>
 
-.text-ferst span{
-    margin-left: 60px;
-    font-size: 2rem;
-    line-height: 2em;
-    font-weight: 500;
-    color: #030303;
-}
-hr{
-    
-    height: 1px;
-    background-color: #d8d8d8;
-    border: none;
-    margin: 10px 3px;
-}
-.content-area hr{
-    margin-left: 17px;
-}
-main hr{
-    
-    margin-right: 50px;
-}
-.text-1 {
-    color: black;
-    
+            <section class="text-2" id="ri">
+                <h1>
+                    Recovers and regenerates energy
+                    For even longer lasting charge
+                </h1>
+                <p>
+                    In order to extend battery life, the scooter converts and stores kinetic energy during acceleration into
+                    electrical power. It's also fitted with a regenerative braking system for addition power. This enhances the
+                    emergency braking system and improves the battery life at the same time.
+                </p>
+            </section>
 
-    margin-top: 140px;
-}
-main{
-    margin-left: 250px;
-    text-align: center;
-}
-.text-1 p{
-    font-size: 2rem;
-    font-weight: 400;
-    margin-right: 10px;
-}
+                <hr>
+                <hr>
+            <section class="text-3" id="uh">
+                <h1>
+                    Providing you a safer ride, day or night
+                </h1>
+                <p>Ultra-bright headlight
 
-.text-1 h1{
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 600;
-    margin-top: 30px;
-    
-}
+                    An ultra-bright headlight for added safety when
+                    night riding.
+                </p>
+                <p>Double brake system
 
-.text-2 p{
-    
-    font-size: 2rem;
-    font-weight: 400;
-    margin-right: 15px;
-}
-.text-2 h1{
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 600;
-    margin-top: 30px;
-    
-}
-
-.text-3 p{
-    
-    font-size: 2rem;
-    font-weight: 400;
-    margin-right: 15px;
-}
-.text-3 h1{
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 600;
-    margin-top: 30px;
-    
-}
-
-.text-4 p{
-    
-    font-size: 2rem;
-    font-weight: 400;
-    margin-right: 15px;
-}
-.text-4 h1{
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 600;
-    margin-top: 30px;
-    
-}
+                    Featuring a rear 120mm ventilated disc brake and a
+                    front E-ABS regenerative anti-lock braking system
+                    for efficient response braking.
+                </p>
+                <p>Red tail lights for safe
+                    braking
+                    
+                    Red tail lights flash distinctively as a warning to
+                    pedestrians and other vehicles on the road.
+                </p>
+                <p>Red tail lights for safe
+                    braking
+                    
+                    Red tail lights flash distinctively as a warning to
+                    pedestrians and other vehicles on the road.
+                </p>
+            </section>
+                <hr>
+                <hr>
+            <section class="text-4" id="ou">
+                <h1>Turn your smartphone into your
+                    dashboard
+                </h1>
+                <p>
+                    Simply pair with the scooter via Bluetooth and use the app to power on,
+                    update the firmware, view mileage, remaining power and current speed,
+                    or to enable cruise control [4] to save energy and give your wrist a break.
+                    <br>
+                    <br>
+                    Smart unlock,Ride stats,Cruise control,Firmware updates,Bluetooth
+                </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </section>
+            
+        </main>
+    </div>
+</body>
+</html>
